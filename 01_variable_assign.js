@@ -1,3 +1,4 @@
+console.log("====Assignment No. 1: Variable Declaration, Initialization and Logging On Console==== ");
 var myFullName
 console.log(myFullName);
 myFullName=("Chandrashekhar Thombare");
