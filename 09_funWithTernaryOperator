@@ -1,0 +1,16 @@
+console.log(`1] To check male marriage eligibility`);
+function maleMarriageEligibility(gender, age, name) {
+   var marriage= gender="Male" && age>=21 ? "you are eligible for Marriage.":"sorry you are not eligible for Marriage. "
+   console.log(`Hey ${name}, ${marriage}`);
+}
+maleMarriageEligibility("Male", 25, "Bill Gates");
+maleMarriageEligibility("Male", 17, "Steve Jobs");
+console.log(`---------------------------------------------`);
+console.log(`2] To check male marriage eligibility`);
+function femaleMarriageEligibility(gender, age, femaleName) {
+   var femaleMarriage= gender="female" && age>=18 ? "you are eligible for Marriage.":"sorry you are not eligible for Marriage. "
+   console.log(`Hey ${femaleName}, ${femaleMarriage}`);
+}
+femaleMarriageEligibility("female", 16, "Jennifer");
+femaleMarriageEligibility("female", 27, "Malinda Gates");
+console.log(`---------------------------------------------`);
