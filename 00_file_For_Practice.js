@@ -1,14 +1,16 @@
-var sscResult= function(stud1){
-var resultOfStud= stud1 >= "35%" ? "Pass"  : "Fail"
-console.log(`The student with marks= ${stud1} is ${resultOfStud}`);
+// countCharA(" My favourite movie is LAggAn");
+
+function countCharA(string) {
+    let counter = 0;
+for (let index = 0; index < string.length; index++) {
+  var char = string.charAt(index);
+  if (char == "A" || char == "a") {
+    // console.log(char);
+    counter = counter + 1;
+  }
 }
-sscResult("37%");
-sscResult("10%");
-sscResult("98%");
+console.log(counter);
+}
 
-var val1=10;
-var val2=35
-val3=100
-
-
-//to find biggest value between num1=10, num2=20, num3=4 using ternary operator?
+countCharA("I AM Learning JavaScript, The language of internet");
+countCharA("My favourite movie is LAggAn");
