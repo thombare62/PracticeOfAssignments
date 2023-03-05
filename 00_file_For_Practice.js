@@ -1,9 +1,14 @@
-{/* <div id=test" class="test" >
-#test{backColor:red}
-.test{backColor:green} */}
-let x= 10 ;
-let y = x++; 
-let z = ++x;  
-console.log(x,y,z)
-console.log(0.1 + 0.2);
-console.log(0.1 + 0.2 == 0.3);
+const response = {
+  maran: {
+    count: 1,
+  },
+  gas: {
+    count: 2,
+  },
+  prelude: {
+    count: 5,
+  },
+  keys: ['maran', 'gas', 'prelude'],
+};
+sum= response.maran.count + response.gas.count + response.prelude.count
+console.log(sum);
